@@ -13,7 +13,7 @@ const DisplayData = (props) => {
 
   return (
     <div className="col-md-4">
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "22rem" }}>
         <Card.Body>
           <p>Id: {props.id}</p>
           <p>Price: {props.price}</p>

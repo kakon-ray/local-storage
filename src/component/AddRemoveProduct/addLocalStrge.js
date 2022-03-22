@@ -35,4 +35,19 @@ const removeLocalStrge = (id) => {
   }
 };
 
-export { addLocalStrge, removeLocalStrge };
+const totalProductPrice = (product) => {
+  // const getSum = (totalPrice, currentPrice) => {
+  //   return totalPrice + Math.round(currentPrice);
+  // };
+
+  // const totalPrice = product.reduce(getSum, 0);
+
+  const totalPrice = product.reduce(
+    (totalPrice, currentPrice) => totalPrice + Math.round(currentPrice.price),
+    0
+  );
+
+  return totalPrice;
+};
+
+export { addLocalStrge, removeLocalStrge, totalProductPrice as getTotal };
