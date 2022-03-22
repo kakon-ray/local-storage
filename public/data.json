@@ -1,0 +1,32 @@
+[
+  {
+    "id": "6239616ad49dcd178ab54edb",
+    "index": 0,
+    "price": 28,
+    "name": "Ferrell Ewing"
+  },
+  {
+    "id": "6239616a10dc1278a71c1c5b",
+    "index": 1,
+    "price": 33,
+    "name": "Beulah Lancaster"
+  },
+  {
+    "id": "6239616a1db30d4f5efd4cc3",
+    "index": 2,
+    "price": 30,
+    "name": "Estelle Mccray"
+  },
+  {
+    "id": "6239616a0765004adbd59986",
+    "index": 3,
+    "price": 38,
+    "name": "Kemp Ward"
+  },
+  {
+    "id": "6239616ae072e1a5aadef2e7",
+    "index": 4,
+    "price": 33,
+    "name": "Maricela Wyatt"
+  }
+]
