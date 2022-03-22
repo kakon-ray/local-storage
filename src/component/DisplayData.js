@@ -3,14 +3,26 @@ import { Card, Button } from "react-bootstrap";
 
 const DisplayData = (props) => {
   const productAdd = (id) => {
-    const product = localStorage.getItem(id);
-    if (product) {
-      console.log("already exict");
-      const newQuentity = parseInt(product) + 1;
-      localStorage.setItem(id, newQuentity);
+    let shopingCart = {};
+    // get the shopping cart
+
+    const storedCart = localStorage.getItem("Shoping-Cart");
+    if (storedCart) {
+      shopingCart = JSON.parse(storedCart);
     } else {
-      localStorage.setItem(id, 1);
+      shopingCart = {};
     }
+
+    // add quentity
+    const quentity = shopingCart[id];
+    if (quentity) {
+      const newQuentity = quentity + 1;
+      shopingCart[id] = newQuentity;
+      //   localStorage.setItem(id, newQuentity);
+    } else {
+      shopingCart[id] = 1;
+    }
+    localStorage.setItem("Shoping-Cart", JSON.stringify(shopingCart));
   };
   return (
     <div className="col-md-4">
