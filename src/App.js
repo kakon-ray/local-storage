@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import DisplayData from "./component/DisplayData";
+import DisplayData from "./component/AddRemoveProduct/DisplayData";
 import React, { useEffect, useState } from "react";
 
 import "bootstrap/dist/css/bootstrap.min.css";
