@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# This project use add localstroge value and reamove localstroge value
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Link](https://shoping-cart-localstroge.netlify.app/).
